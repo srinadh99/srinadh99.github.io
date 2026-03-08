@@ -24,6 +24,16 @@ html {
   line-height: 1.7;
 }
 
+/* Section heading sizing for a cleaner academic look */
+.page__content h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+.page__content h3 {
+  font-size: 1.15rem;
+}
+
 /* Remove TOC sidebar completely */
 .sidebar__right,
 nav.toc,
@@ -34,9 +44,9 @@ nav.toc,
 /* Safer wrapping for long text / links */
 .page,
 .page__content,
-.home-layout,
+.home-wrapper,
 .home-sidebar,
-.home-main,
+.home-content,
 .card,
 .timeline-item,
 .project-panel__content {
@@ -123,6 +133,8 @@ nav.toc,
   border: 1px solid rgba(0, 0, 0, 0.09);
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.70);
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .timeline-item::before {
@@ -139,17 +151,20 @@ nav.toc,
 
 .timeline-time {
   margin-bottom: 0.15rem;
-  font-size: 0.92rem;
-  opacity: 0.75;
+  font-size: 0.9rem;
+  opacity: 0.7;
 }
 
 .timeline-title {
   margin: 0.1rem 0 0.35rem;
-  font-size: 1.1rem;
-  font-weight: 850;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .timeline-meta {
+  font-size: 0.95rem;
+  line-height: 1.6;
   opacity: 0.85;
 }
 
@@ -179,20 +194,20 @@ details.project[open] {
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.07);
 }
 
-/* ======================================
-   HOMEPAGE LEFT SIDEBAR
-====================================== */
+/* =========================================================
+   Homepage left sidebar
+   ========================================================= */
 
 .home-wrapper {
   display: grid;
-  grid-template-columns: 140px 1fr;   /* smaller sidebar */
+  grid-template-columns: 140px 1fr;
   column-gap: 30px;
   align-items: start;
 }
 
-/* push sidebar slightly left */
 .home-sidebar {
   margin-left: -40px;
+  padding-top: 8px;
 }
 
 .home-links {
@@ -205,39 +220,65 @@ details.project[open] {
   display: flex;
   align-items: center;
   gap: 8px;
-  text-decoration: none;
+  text-decoration: none !important;
+  color: inherit;
   font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.home-links a:hover {
+  text-decoration: underline;
 }
 
 .home-links i {
   width: 18px;
+  text-align: center;
+  flex-shrink: 0;
 }
 
-/* main text column */
 .home-content {
   max-width: 760px;
+  min-width: 0;
 }
-/* mobile */
-@media (max-width: 900px) {
 
-  .home-wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  .home-links {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 14px;
-  }
-
+.intro-lead {
+  margin: 0 0 0.8rem;
+  font-size: clamp(1.15rem, 1.9vw, 1.45rem);
+  font-weight: 850;
+  line-height: 1.45;
 }
+
+.home-content p {
+  margin: 0 0 0.85rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.profile-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0.2rem 0 1.2rem;
+  font-size: 0.96rem;
+  opacity: 0.9;
+}
+
+.profile-role {
+  font-weight: 850;
+}
+
+.profile-sep {
+  opacity: 0.55;
+}
+
 /* Optional: keep old button rows tidy if used elsewhere */
 .profile-links .btn {
   margin-right: 0.35rem;
   margin-bottom: 0.35rem;
 }
 
-/* Slightly wider hero wrapper if you use overlay pages elsewhere */
+/* Slightly wider hero wrapper if used elsewhere */
 .page__hero--overlay .wrapper {
   max-width: 1400px;
 }
@@ -317,9 +358,14 @@ details.project[open] {
     grid-template-columns: 1fr;
   }
 
-  .home-layout {
+  .home-wrapper {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .home-sidebar {
+    margin-left: 0;
+    padding-top: 0;
   }
 
   .home-links {
@@ -334,11 +380,29 @@ details.project[open] {
     font-size: clamp(1.05rem, 4.8vw, 1.25rem);
   }
 
-  .home-main p {
+  .home-content p,
+  .page__content p,
+  .page__content li {
     font-size: 0.97rem;
+  }
+
+  .timeline-title {
+    font-size: 0.98rem;
+  }
+
+  .timeline-meta {
+    font-size: 0.93rem;
+  }
+
+  .timeline-time {
+    font-size: 0.86rem;
   }
 
   .profile-row {
     font-size: 0.92rem;
+  }
+
+  .page__content h2 {
+    font-size: 1.3rem;
   }
 }
