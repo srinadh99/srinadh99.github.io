@@ -185,14 +185,14 @@ details.project[open] {
 
 .home-wrapper {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  column-gap: 40px;
+  grid-template-columns: 140px 1fr;   /* smaller sidebar */
+  column-gap: 30px;
   align-items: start;
 }
 
-/* sidebar */
+/* push sidebar slightly left */
 .home-sidebar {
-  padding-top: 8px;
+  margin-left: -40px;
 }
 
 .home-links {
@@ -213,11 +213,10 @@ details.project[open] {
   width: 18px;
 }
 
-/* main text */
+/* main text column */
 .home-content {
   max-width: 760px;
 }
-
 /* mobile */
 @media (max-width: 900px) {
 
