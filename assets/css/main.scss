@@ -34,10 +34,9 @@ nav.toc,
 /* Safer wrapping for long text / links */
 .page,
 .page__content,
-.intro-band,
-.intro-band__inner,
-.intro-main,
-.intro-sidebar,
+.home-layout,
+.home-sidebar,
+.home-main,
 .card,
 .timeline-item,
 .project-panel__content {
@@ -181,85 +180,56 @@ details.project[open] {
 }
 
 /* =========================================================
-   Homepage intro section
+   Homepage layout with true left sidebar
    ========================================================= */
 
-.full-bleed {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-}
-
-.intro-band {
-  padding: 2rem 1.1rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.07);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-  background: rgba(255, 255, 255, 0.60);
-}
-
-@supports ((-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))) {
-  .intro-band {
-    background: rgba(255, 255, 255, 0.45);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-  }
-}
-
-.intro-band__inner {
+.home-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
   max-width: 1100px;
   margin: 0 auto;
-}
-
-/* Sidebar on left + text on right */
-.intro-band__inner.intro-band--with-sidebar {
-  display: grid;
-  grid-template-columns: 200px minmax(0, 1fr);
-  gap: 2rem;
   align-items: start;
 }
 
-.intro-sidebar {
+.home-sidebar {
+  padding-top: 8px;
+}
+
+.home-links {
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
-  padding-top: 0.2rem;
+  gap: 10px;
 }
 
-.intro-sidebar a {
+.home-links a {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
-  padding: 0.6rem 0.8rem;
-  border: 1px solid rgba(0, 0, 0, 0.10);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.72);
+  gap: 8px;
+  padding: 6px 0;
   color: inherit;
   text-decoration: none !important;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
-  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
-.intro-sidebar a:hover {
-  transform: translateY(-1px);
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+.home-links a:hover {
+  text-decoration: underline;
 }
 
-.intro-sidebar i {
+.home-links i {
   width: 18px;
   text-align: center;
-  font-size: 1rem;
   flex-shrink: 0;
 }
 
-.intro-sidebar span {
-  font-size: 0.96rem;
-  font-weight: 600;
+.home-links span {
+  font-weight: 500;
 }
 
-.intro-main {
+.home-main {
+  max-width: 760px;
   min-width: 0;
-  max-width: 860px;
 }
 
 .intro-lead {
@@ -269,7 +239,7 @@ details.project[open] {
   line-height: 1.45;
 }
 
-.intro-band p {
+.home-main p {
   margin: 0 0 0.85rem;
   font-size: 1rem;
   line-height: 1.7;
@@ -280,7 +250,7 @@ details.project[open] {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.55rem;
-  margin: 0.2rem 0 0.1rem;
+  margin: 0.2rem 0 1.2rem;
   font-size: 0.96rem;
   opacity: 0.9;
 }
@@ -293,11 +263,13 @@ details.project[open] {
   opacity: 0.55;
 }
 
+/* Optional: keep old button rows tidy if used elsewhere */
 .profile-links .btn {
   margin-right: 0.35rem;
   margin-bottom: 0.35rem;
 }
 
+/* Slightly wider hero wrapper if you use overlay pages elsewhere */
 .page__hero--overlay .wrapper {
   max-width: 1400px;
 }
@@ -377,31 +349,24 @@ details.project[open] {
     grid-template-columns: 1fr;
   }
 
-  .intro-band__inner {
-    max-width: 100%;
-  }
-
-  .intro-band__inner.intro-band--with-sidebar {
+  .home-layout {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 20px;
   }
 
-  .intro-sidebar {
+  .home-links {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 14px;
   }
 }
 
 @media (max-width: 768px) {
-  .intro-sidebar a {
-    padding: 0.55rem 0.75rem;
-  }
-
   .intro-lead {
     font-size: clamp(1.05rem, 4.8vw, 1.25rem);
   }
 
-  .intro-band p {
+  .home-main p {
     font-size: 0.97rem;
   }
 
