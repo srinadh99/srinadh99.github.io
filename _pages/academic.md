@@ -3,6 +3,7 @@ title: "Academic Background"
 permalink: /academic/
 toc: false
 toc_sticky: false
+breadcrumbs: false
 ---
 
 <div class="notice--info">
