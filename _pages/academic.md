@@ -32,6 +32,12 @@ breadcrumbs: false
 
 ## Awards & Recognition
 
+## Selected publications
+
+- **(Journal, 2024)** Enhanced Astronomical Source Classification with Integration of Attention Mechanisms and Vision Transformers. *Astrophysics and Space Science*.
+- **(Journal, 2022)** Cosmic Ray rejection with attention augmented deep learning. *Astronomy and Computing*.
+- **(Conference, 2024)** Vision Transformer-Driven LiDAR Data Fusion for Enhanced Hyperspectral Image Classification. *IEEE InGARSS*.
+
 <div class="timeline">
 
 <div class="timeline-item">
