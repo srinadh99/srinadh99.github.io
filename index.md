@@ -30,11 +30,10 @@
        <p>
 Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clemson University working with <a href="https://science.clemson.edu/cosmicorigins/" target="_blank">Prof. Marco Ajello</a>. I develop machine-learning methods for <strong>gamma-ray imaging</strong> using <strong>Compton cameras</strong>, with applications in <strong>astrophysics</strong> and <strong>medical imaging</strong>.
 </p>
-</p>
-    </p>
 
-    <p>
-      My research focuses on efficient, robust, and physically informed representation-learning frameworks for artifact detection, signal separation, localization, and image reconstruction in complex acquisition systems (often under extreme noise, sparsity, and domain shift).
+<p>
+I received my Ph.D. in <strong>Electrical Engineering</strong> from <strong>IIT Hyderabad, India</strong>, under the guidance of <a href="https://people.iith.ac.in/sumohana/" target="_blank">Prof. Sumohana Channappayya</a> and <a href="https://people.iith.ac.in/shantanud/" target="_blank">Prof. Shantanu Desai</a>.
+</p>
     </p>
 
     
