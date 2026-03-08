@@ -1,5 +1,5 @@
 ---
-title: "Experience"
+title: ""
 permalink: /experience/
 toc: false
 toc_sticky: false
