@@ -33,7 +33,7 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clem
     </p>
 
     
-    <h2>Recent News</h2>
+<h2>Recent News</h2>
 
     <ul class="home-news">
       <li>(April 2024) Started as a postdoctoral scholar at Clemson University.</li>
