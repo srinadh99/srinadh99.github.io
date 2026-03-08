@@ -27,7 +27,9 @@
   <div class="home-content">
     <p class="intro-lead">
       <p>
-Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clemson University working on machine-learning methods for <strong>gamma-ray imaging</strong> using <strong>Compton camera systems</strong>. My research develops ML-driven approaches for imaging and source localization with applications in <strong>astrophysics</strong> and <strong>medical imaging</strong>, along with broader problems in astronomical data analysis and multimodal sensing.
+       <p>
+Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clemson University working with <a href="https://science.clemson.edu/cosmicorigins/" target="_blank">Prof. Marco Ajello</a>. I develop machine-learning methods for <strong>gamma-ray imaging</strong> using <strong>Compton cameras</strong>, with applications in <strong>astrophysics</strong> and <strong>medical imaging</strong>.
+</p>
 </p>
     </p>
 
