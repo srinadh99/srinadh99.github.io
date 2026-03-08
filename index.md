@@ -26,7 +26,9 @@
 
   <div class="home-content">
     <p class="intro-lead">
-      Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clemson University working on machine-learning methods for imaging — spanning astronomy, Compton camera systems, and multimodal sensing.
+      <p>
+Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clemson University working on machine-learning methods for <strong>gamma-ray imaging</strong> using <strong>Compton camera systems</strong>. My research develops ML-driven approaches for imaging and source localization with applications in <strong>astrophysics</strong> and <strong>medical imaging</strong>, along with broader problems in astronomical data analysis and multimodal sensing.
+</p>
     </p>
 
     <p>
