@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Research">
+    <rect x="0" y="0" width="256" height="256" fill="none"/>
+    <g style="color:#1f2d3d">
+        <circle cx="128" cy="128" r="12" fill="currentColor"/>
+        <ellipse cx="128" cy="128" rx="92" ry="44" fill="none" stroke="currentColor" stroke-width="10"/>
+        <ellipse cx="128" cy="128" rx="44" ry="92" fill="none" stroke="currentColor" stroke-width="10" transform="rotate(60 128 128)"/>
+        <ellipse cx="128" cy="128" rx="44" ry="92" fill="none" stroke="currentColor" stroke-width="10" transform="rotate(-60 128 128)"/>
+        </g>
+</svg>

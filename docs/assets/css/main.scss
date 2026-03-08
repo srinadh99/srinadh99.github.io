@@ -1,0 +1,305 @@
+---
+# Only the main Sass file needs front matter
+---
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}";
+@import "minimal-mistakes";
+
+/* =========================================================
+   Custom polish (UI/UX)
+   ========================================================= */
+
+.callout {
+  padding: 1rem 1.2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.70);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  margin: 1.2rem 0 1.6rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 1rem 0 1.6rem;
+}
+
+.card {
+  display: block;
+  padding: 1.05rem 1.15rem;
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.70);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+  text-decoration: none !important;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.10);
+}
+
+.card-title {
+  font-weight: 800;
+  margin-bottom: .4rem;
+}
+
+.card-title i {
+  margin-right: .45rem;
+  opacity: .85;
+}
+
+.card-text {
+  opacity: .85;
+  line-height: 1.45;
+}
+
+.timeline {
+  position: relative;
+  margin: 1.4rem 0;
+  padding-left: 1.2rem;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: rgba(0,0,0,0.12);
+  border-radius: 3px;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 1.1rem 0;
+  padding: 1rem 1.1rem 1rem 1.2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,0.09);
+  background: rgba(255,255,255,0.70);
+}
+
+.timeline-item:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 1.15rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.95);
+  border: 3px solid rgba(0,0,0,0.25);
+}
+
+.timeline-time {
+  font-size: 0.92rem;
+  opacity: 0.75;
+  margin-bottom: .15rem;
+}
+
+.timeline-title {
+  font-size: 1.1rem;
+  font-weight: 850;
+  margin: .1rem 0 .35rem;
+}
+
+.timeline-meta {
+  opacity: .85;
+}
+
+details.project {
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.70);
+  padding: .85rem 1.05rem;
+  margin: .85rem 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+details.project > summary {
+  cursor: pointer;
+  font-weight: 850;
+}
+
+details.project > summary::marker {
+  font-size: 1.1em;
+}
+
+details.project[open] {
+  box-shadow: 0 10px 26px rgba(0,0,0,0.07);
+}
+
+/* Slightly wider masthead spacing for a cleaner look */
+.masthead__menu-item {
+  padding: 0 .3rem;
+}
+
+/* Improve readability for long pages */
+.page__content p, .page__content li {
+  font-size: 1.03rem;
+}
+
+/* Nice anchor behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* =========================================================
+   Remove "On this page" (TOC) sidebar completely
+   ========================================================= */
+
+.sidebar__right,
+nav.toc,
+.toc {
+  display: none !important;
+}
+
+
+
+/* =========================================================
+   Full-width (full-bleed) intro section for the homepage
+   ========================================================= */
+
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.intro-band {
+  padding: 2.1rem 1.1rem;
+  border-top: 1px solid rgba(0,0,0,0.07);
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+  background: rgba(255,255,255,0.60);
+}
+
+@supports ((-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))) {
+  .intro-band {
+    background: rgba(255,255,255,0.45);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+  }
+}
+
+.intro-band__inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.intro-lead {
+  font-size: clamp(1.2rem, 2.1vw, 1.55rem);
+  font-weight: 850;
+  line-height: 1.45;
+  margin: 0 0 0.9rem;
+}
+
+.intro-band p {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  margin: 0 0 0.9rem;
+}
+
+/* Mini profile strip on the homepage (kept off other pages) */
+.profile-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  align-items: center;
+  margin: .2rem 0 .8rem;
+  opacity: .9;
+}
+
+.profile-role {
+  font-weight: 850;
+}
+
+.profile-sep {
+  opacity: .55;
+}
+
+.profile-links .btn {
+  margin-right: .35rem;
+  margin-bottom: .35rem;
+}
+
+/* Make the hero overlay text a little wider */
+.page__hero--overlay .wrapper {
+  max-width: 1400px;
+}
+
+/* =========================================================
+   Research project "two-panel" layout
+   ========================================================= */
+
+.project-panel {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.95fr) minmax(360px, 1.35fr);
+  gap: 1.1rem;
+  padding: 1.05rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.70);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.06);
+  margin: 1.05rem 0;
+}
+
+.project-panel__media a {
+  display: block;
+  aspect-ratio: 16 / 10;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.10);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  text-decoration: none !important;
+}
+
+.project-panel__media img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  transition: transform .15s ease;
+}
+
+.project-panel__media a:hover img {
+  transform: scale(1.02);
+}
+
+.project-panel__content h3 {
+  margin-top: .2rem;
+  margin-bottom: .35rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin: .35rem 0 .7rem;
+}
+
+.project-tag {
+  display: inline-block;
+  padding: .18rem .6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.55);
+  font-size: 0.86rem;
+  opacity: 0.88;
+}
+
+.project-links .btn {
+  margin-right: .45rem;
+  margin-top: .25rem;
+}
+
+@media (max-width: 900px) {
+  .project-panel {
+    grid-template-columns: 1fr;
+  }
+}
+

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Academic Background">
+    <rect x="0" y="0" width="256" height="256" fill="none"/>
+    <g style="color:#1f2d3d">
+        <path d="M32 88 L128 48 L224 88 L128 128 Z" fill="none" stroke="currentColor" stroke-width="10" stroke-linejoin="round"/>
+        <path d="M64 104 V152 C64 176 192 176 192 152 V104" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+        <path d="M224 88 V152" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+        <circle cx="224" cy="160" r="10" fill="currentColor"/>
+        </g>
+</svg>

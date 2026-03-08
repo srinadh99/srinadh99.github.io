@@ -1,0 +1,93 @@
+# Site settings
+title: "Srinadh Reddy Bhavanam"
+subtitle: "Machine Learning for Imaging • Astrophysics • Multimodal Sensing"
+name: "Srinadh Reddy Bhavanam"
+description: >-
+  Personal website of Srinadh Reddy Bhavanam: research in machine learning for imaging,
+  astrophysics, and multimodal sensing.
+locale: "en-US"
+
+# If you use a project site (repo name != <username>.github.io), set baseurl to "/<repo-name>".
+# url: "https://<username>.github.io"
+url: ""
+baseurl: ""
+
+repository: ""
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
+# Disable search (removes the search icon/item in the top navigation)
+search: false
+
+# Disable auto Table of Contents ("On this page") site-wide
+toc: false
+toc_sticky: false
+
+# Build settings
+markdown: kramdown
+timezone: America/New_York
+permalink: /:categories/:title/
+
+include:
+  - _pages
+
+exclude:
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - docs
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Author (shown in sidebar)
+author:
+  name: "Srinadh Reddy Bhavanam, Ph.D."
+  avatar: "/assets/images/bio-photo.png"
+  bio: >-
+    Postdoctoral Fellow at Clemson University.
+    I develop efficient, robust, and physically-informed ML for challenging imaging systems
+    across astrophysics, medical imaging, and remote sensing.
+  location: "Clemson, South Carolina, USA"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:srinadhml99@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/srinadh99"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/srinadhreddybhavanam/"
+
+# Footer links
+footer:
+  links:
+    - label: "CV (PDF)"
+      icon: "fas fa-file-pdf"
+      url: "/assets/docs/SrinadhBhavanam_CV.pdf"
+    # Keep social links on the Home page only (see index.md)
+
+# Defaults for nicer UX on pages
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      # Full-width pages (no author sidebar)
+      author_profile: false
+      classes: wide
+      # Remove right-side Table of Contents to keep pages full-width
+      toc: false
+      toc_sticky: false
+      breadcrumbs: true

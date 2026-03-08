@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Hobbies">
+    <rect x="0" y="0" width="256" height="256" fill="none"/>
+    <g style="color:#1f2d3d">
+        <path d="M128 206 C60 160 48 124 48 98 C48 74 66 56 90 56 C108 56 120 66 128 78 C136 66 148 56 166 56 C190 56 208 74 208 98 C208 124 196 160 128 206 Z"
+              fill="none" stroke="currentColor" stroke-width="10" stroke-linejoin="round"/>
+        <path d="M62 46 L62 74 M48 60 L76 60" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+        </g>
+</svg>

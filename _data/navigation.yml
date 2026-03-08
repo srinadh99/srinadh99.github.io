@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Academic Background"
+    url: /academic/
+  - title: "Research"
+    url: /research/
+  - title: "Experience"
+    url: /experience/
+  - title: "Hobbies"
+    url: /hobbies/
+  - title: "CV"
+    url: /assets/docs/SrinadhBhavanam_CV.pdf
