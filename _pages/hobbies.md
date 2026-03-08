@@ -6,8 +6,6 @@ toc_sticky: false
 breadcrumbs: false
 ---
 
-## Ideas to include (examples)
-
 <div class="card-grid">
 
 <div class="card">
