@@ -1,14 +1,10 @@
 ---
-title: "Hobbies"
+title: ""
 permalink: /hobbies/
 toc: false
 toc_sticky: false
+breadcrumbs: false
 ---
-
-<div class="notice--warning">
-Your CV does not list hobbies explicitly, so this page is a clean placeholder.
-Edit this file (<code>_pages/hobbies.md</code>) to add what you’d like visitors to know.
-</div>
 
 ## Ideas to include (examples)
 
