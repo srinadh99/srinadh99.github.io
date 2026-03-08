@@ -3,12 +3,8 @@ title: ""
 permalink: /experience/
 toc: false
 toc_sticky: false
+breadcrumbs: false
 ---
-
-<div class="notice--info">
-This is a short, website-friendly view of my experience (selected roles). For full details, see
-<a href="{{ '/assets/docs/SrinadhBhavanam_CV.pdf' | relative_url }}">my CV (PDF)</a>.
-</div>
 
 <div class="timeline">
 
