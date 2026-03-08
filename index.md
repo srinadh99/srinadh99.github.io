@@ -1,36 +1,32 @@
 <div class="intro-layout">
 
-  <!-- LEFT CONTACT COLUMN -->
-  <div class="intro-sidebar">
+  <!-- LEFT ICON COLUMN -->
+  <div class="profile-links-vertical">
 
-    <div class="profile-links-vertical">
+    <a href="mailto:srinadhml99@gmail.com">
+      <i class="fas fa-envelope"></i>
+    </a>
 
-      <a href="mailto:srinadhml99@gmail.com">
-        <i class="fas fa-envelope"></i> Email
-      </a>
+    <a href="https://github.com/srinadh99" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
 
-      <a href="https://github.com/srinadh99" target="_blank">
-        <i class="fab fa-github"></i> GitHub
-      </a>
+    <a href="https://www.linkedin.com/in/srinadhreddybhavanam/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
 
-      <a href="https://www.linkedin.com/in/srinadhreddybhavanam/" target="_blank">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a>
+    <a href="https://scholar.google.com/citations?user=3zHdgA0AAAAJ&hl=en" target="_blank">
+      <i class="fas fa-graduation-cap"></i>
+    </a>
 
-      <a href="https://scholar.google.com/citations?user=3zHdgA0AAAAJ&hl=en" target="_blank">
-        <i class="fas fa-graduation-cap"></i> Google Scholar
-      </a>
-
-      <a href="/assets/docs/SrinadhBhavanam_CV.pdf">
-        <i class="fas fa-file-pdf"></i> CV
-      </a>
-
-    </div>
+    <a href="/assets/docs/SrinadhBhavanam_CV.pdf">
+      <i class="fas fa-file-pdf"></i>
+    </a>
 
   </div>
 
 
-  <!-- MAIN INTRO -->
+  <!-- TEXT -->
   <div class="intro-main">
 
     <p class="intro-lead">
@@ -50,7 +46,6 @@
   </div>
 
 </div>
-
 <h2>Recent News</h2>
 
 <ul>
