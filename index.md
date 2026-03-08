@@ -55,5 +55,3 @@
       <li><strong>Multisensor fusion</strong> (hyperspectral + LiDAR) for remote-sensing land-cover applications.</li>
     </ul>
  
-
-</div>
