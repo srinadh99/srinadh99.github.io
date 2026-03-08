@@ -44,6 +44,4 @@ I received my Ph.D. in <strong>Electrical Engineering</strong> from <strong>IIT 
       <li><strong>Multimodal transformers</strong> for classification and source separation in wide-field surveys.</li>
       <li><strong>Multisensor fusion</strong> (hyperspectral + LiDAR) for remote-sensing land-cover applications.</li>
     </ul>
-  </div>
 
-</div>
