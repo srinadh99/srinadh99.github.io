@@ -1,14 +1,10 @@
 ---
-title: "Research"
+title: ""
 permalink: /research/
 toc: false
 toc_sticky: false
+breadcrumbs: false
 ---
-
-<div class="notice--info">
-This page summarizes selected projects and a short publication list.
-For the complete list, see <a href="{{ '/assets/docs/SrinadhBhavanam_CV.pdf' | relative_url }}">my CV (PDF)</a>.
-</div>
 
 ## Research themes
 
