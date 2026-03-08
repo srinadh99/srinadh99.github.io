@@ -39,7 +39,7 @@
 <h2>Recent News</h2>
 
 <ul>
-<li><strong>Compton imaging for NASA’s COSI mission</strong>: GRB localization and scientific software development.</li>
+<li>(April 2024) Started as a postdoctoral scholar at Clemson University.</li>
 <li><strong>Multimodal transformers</strong> for classification and source separation in wide-field surveys.</li>
 <li><strong>Multisensor fusion</strong> (hyperspectral + LiDAR) for remote-sensing land-cover applications.</li>
 </ul>
