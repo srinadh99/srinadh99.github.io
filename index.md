@@ -1,5 +1,37 @@
-<div class="intro-band">
-  <div class="intro-band__inner">
+<div class="intro-layout">
+
+  <!-- LEFT CONTACT COLUMN -->
+  <div class="intro-sidebar">
+
+    <div class="profile-links-vertical">
+
+      <a href="mailto:srinadhml99@gmail.com">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+
+      <a href="https://github.com/srinadh99" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/srinadhreddybhavanam/" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+
+      <a href="https://scholar.google.com/citations?user=3zHdgA0AAAAJ&hl=en" target="_blank">
+        <i class="fas fa-graduation-cap"></i> Google Scholar
+      </a>
+
+      <a href="/assets/docs/SrinadhBhavanam_CV.pdf">
+        <i class="fas fa-file-pdf"></i> CV
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- MAIN INTRO -->
+  <div class="intro-main">
 
     <p class="intro-lead">
       Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clemson University working on machine-learning methods for imaging — spanning astronomy, Compton camera systems, and multimodal sensing.
@@ -15,25 +47,8 @@
       <span class="profile-location">Clemson, South Carolina, USA</span>
     </div>
 
-    <div class="profile-links">
-      <a class="btn btn--primary btn--small" href="mailto:srinadhml99@gmail.com">
-        <i class="fas fa-envelope"></i> Email
-      </a>
-
-      <a class="btn btn--inverse btn--small" href="https://github.com/srinadh99" target="_blank">
-        <i class="fab fa-github"></i> GitHub
-      </a>
-
-      <a class="btn btn--inverse btn--small" href="https://www.linkedin.com/in/srinadhreddybhavanam/" target="_blank">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a>
-
-      <a class="btn btn--inverse btn--small" href="/assets/docs/SrinadhBhavanam_CV.pdf">
-        <i class="fas fa-file-pdf"></i> CV
-      </a>
-    </div>
-
   </div>
+
 </div>
 
 <h2>Recent News</h2>
