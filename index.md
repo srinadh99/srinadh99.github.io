@@ -35,12 +35,7 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clem
       My research focuses on efficient, robust, and physically informed representation-learning frameworks for artifact detection, signal separation, localization, and image reconstruction in complex acquisition systems (often under extreme noise, sparsity, and domain shift).
     </p>
 
-    <div class="profile-row">
-      <span class="profile-role">Postdoctoral Fellow · Clemson University</span>
-      <span class="profile-sep">•</span>
-      <span class="profile-location">Clemson, South Carolina, USA</span>
-    </div>
-
+    
     <h2>Recent News</h2>
 
     <ul class="home-news">
