@@ -32,17 +32,6 @@ breadcrumbs: false
 
 ## Awards & Recognition
 
-## Selected publications
-
-- **(Journal, 2024)** Enhanced Astronomical Source Classification with Integration of Attention Mechanisms and Vision Transformers. *Astrophysics and Space Science*.
-- **(Journal, 2022)** Cosmic Ray rejection with attention augmented deep learning. *Astronomy and Computing*.
-- **(Conference, 2024)** Vision Transformer-Driven LiDAR Data Fusion for Enhanced Hyperspectral Image Classification. *IEEE InGARSS*.
-
-<div class="timeline">
-
-<div class="timeline-item">
-  <div class="timeline-time">July 2022</div>
-  <div class="timeline-title">TCS Ph.D Fellowship </div>
-  </div>
-
-</div>
+- NVIDIA Academic Grant December 2024
+- Sakura Science Research Exchange Program at UTokyo, Japan
+- TCS PhD Fellowship in June 2021
