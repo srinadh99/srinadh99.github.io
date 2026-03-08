@@ -25,7 +25,7 @@ breadcrumbs: false
 <div class="timeline-item">
   <div class="timeline-time">Aug 2011 – May 2015</div>
   <div class="timeline-title">B.Tech, Jawaharlal Nehru Technological University</div>
-  <div class="timeline-meta">Electronics & Communication Engineering · Grade: 80.5%</div>
+  <div class="timeline-meta">Electronics & Communication Engineering · Grade: 80.5/100</div>
 </div>
 
 </div>
