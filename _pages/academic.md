@@ -1,5 +1,5 @@
 ---
-title: "Academic Background"
+title: ""
 permalink: /academic/
 toc: false
 toc_sticky: false
