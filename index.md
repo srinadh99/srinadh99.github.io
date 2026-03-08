@@ -46,6 +46,7 @@
   </div>
 
 </div>
+
 <h2>Recent News</h2>
 
     <ul>
@@ -53,6 +54,6 @@
       <li><strong>Multimodal transformers</strong> for classification and source separation in wide-field surveys.</li>
       <li><strong>Multisensor fusion</strong> (hyperspectral + LiDAR) for remote-sensing land-cover applications.</li>
     </ul>
-  </div>
+ 
 
 </div>
