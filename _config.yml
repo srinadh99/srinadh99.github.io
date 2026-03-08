@@ -72,9 +72,9 @@ author:
 # Footer links
 footer:
   links:
-    - label: "CV (PDF)"
-      icon: "fas fa-file-pdf"
-      url: "/assets/docs/SrinadhBhavanam_CV.pdf"
+     # label: "CV (PDF)"
+      # icon: "fas fa-file-pdf"
+      # url: "/assets/docs/SrinadhBhavanam_CV.pdf"
     # Keep social links on the Home page only (see index.md)
 
 # Defaults for nicer UX on pages
