@@ -1,17 +1,3 @@
----
-title: " "
-layout: splash
-permalink: /
-author_profile: false
-header:
-  overlay_image: /assets/images/hero.jpg
-  overlay_filter: 0.45
-  actions:
-    - label: "Download CV"
-      url: /assets/docs/SrinadhBhavanam_CV.pdf
-excerpt: "Postdoctoral Fellow at Clemson University · ML for imaging, astrophysics, and multimodal sensing."
----
-
 <div class="full-bleed intro-band">
   <div class="intro-band__inner">
     <p class="intro-lead">Hi! I’m Srinadh Reddy Bhavanam, a Postdoctoral Fellow at Clemson University working on machine-learning methods for imaging — spanning astronomy, Compton camera systems, and multimodal sensing.</p>
