@@ -36,7 +36,7 @@
   </div>
 </div>
 
-<h2>Highlights</h2>
+<h2>Recent News</h2>
 
 <ul>
 <li><strong>Compton imaging for NASA’s COSI mission</strong>: GRB localization and scientific software development.</li>
