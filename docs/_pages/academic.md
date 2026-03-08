@@ -1,15 +1,3 @@
----
-title: "Academic Background"
-permalink: /academic/
-toc: false
-toc_sticky: false
----
-
-<div class="notice--info">
-This page is a curated subset of my CV (education + teaching). For the full details, see
-<a href="{{ '/assets/docs/SrinadhBhavanam_CV.pdf' | relative_url }}">my CV (PDF)</a>.
-</div>
-
 ## Education
 
 <div class="timeline">
