@@ -33,7 +33,7 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a CU Postdoctoral Fellow at C
 </p>
     </p>
 
-<h2>Research Interests</h2> Applied Signal Processing, Machine Learning, Computer Vision, and AI for Astrophysics, Medicine, and Remote Sensing.         
+<h2>Research Interests</h2> Applied Signal Processing, Machine Learning, Computer Vision, and AI for Astrophysics, Medicine, and Remote Sensing. Developing AI-driven algorithms, agentic systems, and scientific software.
     
 <h2>Recent News</h2>
 
