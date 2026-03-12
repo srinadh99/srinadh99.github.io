@@ -40,5 +40,6 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clem
       <li>(July 2025) Our work on MargFormer (poster) and COSI GRB Localization (oral) is presented at the AstroAI Workshop, Harvard University.</li>
       <li>(December 2024) Received NVIDIA Academic Grant.</li>
       <li>(April 2024) Started as a postdoctoral scholar at Clemson University.</li>
+      <li>(March 2025) Successfully defended my thesis!</li>
     </ul>
 
