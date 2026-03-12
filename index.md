@@ -36,8 +36,7 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clem
 <h2>Recent News</h2>
 
     <ul class="home-news">
+      <li>(July 2025) Our work on MargFormer (poster) and COSI GRB Localization (oral) are presented at the AstroAI Workshop, Harvard University.</li>
       <li>(April 2024) Started as a postdoctoral scholar at Clemson University.</li>
-      <li><strong>Multimodal transformers</strong> for classification and source separation in wide-field surveys.</li>
-      <li><strong>Multisensor fusion</strong> (hyperspectral + LiDAR) for remote-sensing land-cover applications.</li>
     </ul>
 
