@@ -28,7 +28,7 @@
     <p class="intro-lead">
       <p>
        <p>
-Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clemson University working with <a href="https://science.clemson.edu/cosmicorigins/" target="_blank">Prof. Marco Ajello</a>. I develop machine-learning methods for <strong>gamma-ray imaging</strong> using <strong>Compton cameras</strong>, with applications in <strong>astrophysics</strong> and <strong>medical imaging</strong>. I received my Ph.D. in <strong>Electrical Engineering</strong> from <strong>IIT Hyderabad, India</strong>, under the guidance of <a href="https://people.iith.ac.in/sumohana/" target="_blank">Prof. Sumohana Channappayya</a> and <a href="https://people.iith.ac.in/shantanud/" target="_blank">Prof. Shantanu Desai</a>.
+Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a CU Postdoctoral Fellow at Clemson University working with <a href="https://science.clemson.edu/cosmicorigins/" target="_blank">Prof. Marco Ajello</a>, <a href="[https://science.clemson.edu/cosmicorigins/](https://www.clemson.edu/science/academics/departments/physics/about/profiles/lmark)" target="_blank">Prof. Mark D Leising</a>. I develop machine-learning methods for <strong>gamma-ray imaging</strong> using <strong>Compton cameras</strong>, with applications in <strong>astrophysics</strong> and <strong>medical imaging</strong>. I received my Ph.D. in <strong>Electrical Engineering</strong> from <strong>IIT Hyderabad, India</strong>, under the guidance of <a href="https://people.iith.ac.in/sumohana/" target="_blank">Prof. Sumohana Channappayya</a> and <a href="https://people.iith.ac.in/shantanud/" target="_blank">Prof. Shantanu Desai</a>.
 
 </p>
     </p>
