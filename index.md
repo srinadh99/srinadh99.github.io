@@ -38,7 +38,7 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clem
 <h2>Recent News</h2>
 
     <ul class="home-news">
-      <li>(December 2025) Greatful to offer a course on ASTR-8750: Machine Learning for the Physical Sciences at Clemson.
+      <li>(December 2025) Greatful to offer a course on Machine Learning for the Physical Sciences (ASTR-8750) at Clemson.
     .</li>
       <li>(October 2025) Our work on the COSI lightcurve tool is presented at the COSI Workshop, Washington University, St. Louis.</li>
       <li>(July 2025) Our work on MargFormer (poster) and COSI GRB Localization (oral) is presented at the AstroAI Workshop, Harvard University.</li>
