@@ -33,7 +33,7 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a Postdoctoral Fellow at Clem
 </p>
     </p>
 
-<h2>Research Interests</h2> Applied Machine Learning, Computer Vision, AI for Astrophysics, Medicine, Remote Sensing.         
+<h2>Research Interests</h2> Applied Signal Processing, Machine Learning, Computer Vision, and AI for Astrophysics, Medicine, and Remote Sensing.         
     
 <h2>Recent News</h2>
 
