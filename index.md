@@ -47,4 +47,3 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a CU Postdoctoral Fellow at C
       <li>(April 2024) Started as a CU-Postdoctoral Fellow at Clemson University.</li>
       <li>(March 2024) Successfully defended my thesis!</li>
     </ul>
-
