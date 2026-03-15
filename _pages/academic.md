@@ -32,6 +32,6 @@ breadcrumbs: false
 
 ## Awards & Recognition
 
-- NVIDIA Academic Grant December 2024
-- Sakura Science Research Exchange Program at UTokyo, Japan
-- TCS PhD Fellowship in June 2021
+- (Dec 2024) NVIDIA Academic Grant.
+- (Dec 2022) Sakura Science Research Exchange Program at UTokyo, Japan.
+- (June 2020) TCS Research Scholar Program (PhD Fellowship).
