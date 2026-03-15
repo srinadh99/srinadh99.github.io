@@ -42,7 +42,7 @@ Hi! I’m <strong>Srinadh Reddy Bhavanam</strong>, a CU Postdoctoral Fellow at C
 (<a href="https://github.com/srinadh99/ASTR-8750-Clemson-University" target="_blank" style="color: blue; text-decoration: none;">ASTR-8750</a>) at Clemson in Fall 2025.</li>
       <li>(July 2025) Our work on MargFormer (poster) and COSI GRB Localization (oral) is presented at the AstroAI Conference, Harvard University.</li>
       <li>(June 2025) Our work on MargFormer (poster) is presented at CV4Science at CVPR 2025.</li>
-      <li>(December 2024) Received NVIDIA Academic Grant.</li>
+      <li>(December 2024) Received NVIDIA Academic Grant (4x RTX 6000 Ada).</li>
       <li>(April 2024) Started as a CU-Postdoctoral Fellow at Clemson University.</li>
       <li>(March 2024) Successfully defended my PhD thesis!</li>
     </ul>
