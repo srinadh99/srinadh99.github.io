@@ -12,7 +12,7 @@ breadcrumbs: false
   <div class="timeline-time">
     <strong>Ph.D., Indian Institute of Technology (IIT) Hyderabad (Jan 2019 – Mar 2024)</strong>
   </div>
-  <div class="timeline-title">Jan 2019 – Mar 2024</div>
+  <!-- <div class="timeline-title">Jan 2019 – Mar 2024</div> -->
   <div class="timeline-meta">
     Thesis: <em>Machine Learning Algorithms for Astronomical Image Processing</em>
   </div>
