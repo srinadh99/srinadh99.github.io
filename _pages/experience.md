@@ -9,7 +9,7 @@ breadcrumbs: false
 <div class="timeline">
 
 <div class="timeline-item">
-  <div class="timeline-time">Apr 2024 – Jul 2026</div>
+  <div class="timeline-time">Apr 2024 – Present</div>
   <div class="timeline-title">Postdoctoral Fellow — Clemson University (USA)</div>
   <ul>
     <li>Developing machine-learning imaging techniques for <strong>Compton cameras</strong> across astrophysics, medical imaging, and homeland security.</li>
